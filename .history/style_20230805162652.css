@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.menu {
+    background: #ccc;
+    border-bottom: 2px solid #333;
+}
+
+.menu .link {
+    display: flex;
+    display: block;
+}
+
+.link .item {
+    /* display: ; */
+}
+
+.link .item a {
+    padding: 10px;
+}
+
+.nav-link {
+    display: none;
+}

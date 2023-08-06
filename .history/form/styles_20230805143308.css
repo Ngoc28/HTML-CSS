@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #324a76;
+}
+
+.form {
+    display: flex;
+}
+
+.form-register {  
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}

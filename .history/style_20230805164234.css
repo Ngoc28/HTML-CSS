@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.menu {
+    background: #333;
+    border-bottom: 2px solid #ccc;
+}
+
+.menu .link {
+    display: flex;
+    /* display: block; */
+}
+
+.link .item {
+    display: block;
+    list-style: none;
+    position: relative;
+}
+
+.link .item a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+}
+
+.link .item a:hover {
+    background: #ccc;
+}
+
+li.item .nav-link:hover{
+    display: block;
+}
+
+.nav-link {
+    /* display: none; *//
+}
+
+.nav-item {
+    position: absolute;
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+}

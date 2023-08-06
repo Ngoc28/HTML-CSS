@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #e5b895;
+    --white-color: #fff;
+    --main-background:#343436;
+    --text-color:#d1cece;
+    --hover-color:#bd0a0a;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-background);
+    height: 55px;
+}
+
+.header-logo {
+
+}
+
+.header-logo > .heading {
+    padding: 15px 40px;
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+.heading span {
+    color: var(--white-color);
+    padding-left: 3px;
+}
+
+.header-nav {
+    display: block;
+}
+
+.nav-link {
+    display: flex;
+}
+
+.nav-item {
+    display: block;
+}
+
+.nav-item a {
+    padding: 0 20px;
+    color: var(--white-color);
+    text-decoration: none;
+    display: block;
+    line-height: 55px;
+}
+
+.nav-item a:hover {
+    background: var(--hover-color);
+}
+
+/* Container */
+main {
+    padding-top: 55px;
+
+}
+
+.container {
+    min-height: 5000px;
+}
+
+.about {
+
+}
+
+.about-img {
+    position: relative;
+    top: 0; 
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+   
+}
+
+.about-img img {
+    display: block;
+    opacity: .8;
+    /* bottom: 53px; */
+    object-fit: cover;
+}
+
+
+.about-introduce {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    
+}
+
+.about-heading {
+    color: var(--main-color);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.about-heading span {
+    color: #fff;
+    padding-left: 5px;
+}
+
+.about-text {
+    padding: 20px 0;
+    font-size: 15px;
+    color: var(--text-color);
+    line-height: 20px;
+}
+
+.about-btn {
+    background: var(--main-background);
+    color: var(--text-color);
+    padding: 8px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.about-btn:hover {
+    background-color: var(--hover-color);
+    color: var(--white-color);
+    transition: ease .4;
+}
+
+/* history */
+
+.history {
+    display: flex;
+    height: 100%;
+}
+
+.history-img {
+    flex: 1;
+}
+
+.history-img img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+}
+
+.myHistory {
+    flex: 1;
+    height: 450px;
+    text-align: center;
+    padding: 100px 15px 40px 15px;
+    background: var(--main-background);
+}
+
+
+.myHistory-heading {
+    color: var(--main-color);
+}
+
+.myHistory-heading span {
+    padding-left: 5px;
+    color: var(--white-color);
+}
+
+.myHistory-text {
+    color: var(--text-color);
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.myHistory-btn {
+    border: none;
+    background-color: var(--white-color);
+    color: #000;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.myHistory-btn:hover {
+    background-color: var(--hover-color);
+    color: var(--white-color);
+}
+
+/* Location */
+.location {
+    display: flex;
+}
+
+.location-item {
+    flex: 1;
+    text-align: center;
+    padding: 25px;
+}
+
+.location-item:nth-child(2) {
+    background: var(--main-color);
+}
+
+.location-icon i {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.location-heading h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.location-text {
+    font-size: 15px;
+    line-height: 28px;
+}
+
+/* Comment */
+.comment {
+    position: relative;
+    
+}
+
+.comment-img {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.comment-img img {
+    object-fit: cover;
+    display: block;
+    opacity: .7;
+}
+
+.comment-title {
+    text-align: center;
+}
+
+.comment-title .comment-heading {
+    color: var(--white-color);
+}
+
+.comment-heading > span {
+    color: var(--main-color);
+}
+
+.comment-block {
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 50px;
+}
+
+.comment-user {
+    display: flex;
+    background: var(--main-color);
+    padding: 20px 18px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.comment-user img {
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.comment-user > p {
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--white-color);
+
+}
+

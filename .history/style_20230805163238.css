@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.menu {
+    background: #333;
+    border-bottom: 2px solid #ccc;
+}
+
+.menu .link {
+    display: flex;
+    /* display: block; */
+}
+
+.link .item {
+    display: block;
+    list-style: none;
+}
+
+.link .item a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+}
+
+.link .item a:hover {
+    background: #ccc;
+}
+
+.nav-link {
+    display: none;/
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+}

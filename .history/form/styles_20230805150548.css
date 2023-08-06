@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #324a76;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.form-register {  
+    padding: 20px 15px 15px 15px;
+    width: 400px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.tieude {
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.desc {
+    font-size: 20px;
+    color: #666;
+}
+
+.block-form {
+    margin-bottom: 15px;
+}
+
+.block-form label {
+    display: block;
+    font-size: 17px;
+    color: #666;
+}
+
+.block-form input {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 3px;
+    border-color: #ccc ;
+}
+
+.submit {
+    width: 100%;
+    background: #379789;
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.rules {
+
+}
+
+.rules .dieukhoan {
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    }
+
+.dieukhoan a {
+    text-decoration: none;
+}
+
+.dieukhoan a:hover {
+    opacity: .8;
+}

@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #324a76;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 20px 15px 15px 15px;
+}
+
+.form-register {  
+    width: 400px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.heading {
+    text-align: center
+}
+
+.tieude {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.desc {
+
+}
